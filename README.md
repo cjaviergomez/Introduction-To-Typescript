@@ -8,7 +8,9 @@ run `npm install`
 
 ## Convert files to Javascript
 
-`npx tsc src/*.ts --target es6 --outDir dist --watch`
+Later to have the `tsconfig.json` with the correct configuration we can run:
+
+`npx tsc --watch`
 
 ## Execute on Node.js
 
